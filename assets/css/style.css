@@ -1,0 +1,39 @@
+/* This styles the body element */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: #c2bcbc;
+}
+/* This styles the question and answer container*/
+#question-container,
+#answer-container {
+  margin-top: 40px;
+  text-align: center;
+}
+/* Makes the timer value bold*/
+#timer {
+  font-weight: bold;
+}
+/*This styles the buttons*/
+button {
+  background-color: purple;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  font-weight: bold;
+}
+/* This makes the button slightly opaque when it's hovered over*/
+button:hover {
+  opacity: 0.8;
+}
+
+
